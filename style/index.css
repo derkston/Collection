@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Cormorant';
+	src: url(../font/Cormorant-Bold.ttf);
+}
+:root {
+	--color-black : rgba(11, 25, 25, 1) ; 
+	--color-grey : rgba(137, 157, 157, 1);
+}
+body {
+	background-color: rgba(29, 47, 48, 1);
+}
+h1 , h2 {
+	font-family: Cormorant;
+	font-weight: 700;
+	line-height: 100%;
+	letter-spacing: 0%;
+}
+h1 {font-size: 60px;}
+h2 {
+	font-size: 48px;
+	font-style: italic;
+}
+h3 { 
+	font-family: 'Cormorant';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 150%;
+	letter-spacing: 0%;
+}
+p {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0%;
+}
+span , a , button {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	vertical-align: middle;
+}
+button {
+	padding: 10px 25px;
+	border: 1px solid rgba(186, 226, 73, 1);
+	color: rgba(186, 226, 73, 1);
+	transition: all 0.4s ease-in;
+}
+button:hover {
+	background-color: rgba(186, 226, 73, 1);
+	color: var(--color-black);
+}
+button:focus {
+	border: 2px double rgba(131, 164, 64, 1);
+}
+button:active {
+	background-color: rgba(104, 139, 5, 1);
+	color: var(--color-black);
+}
